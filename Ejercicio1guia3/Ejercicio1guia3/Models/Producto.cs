@@ -22,7 +22,7 @@ namespace Ejercicio1guia3.Models
         }
         abstract public double CalcularPrecio();
 
-        virtual public string VerDetalle()
+        public virtual string VerDetalle()
         {
             {
                 string material = "NN";

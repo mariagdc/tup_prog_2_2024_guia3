@@ -14,7 +14,7 @@ namespace Ejercicio1guia3.Models
         public string Cliente {  get; set; }
         public string Direccion {  get; set; }
 
-
+        
         public Presupuesto(string cliente, string direccion)
         {
             Cliente = cliente;
@@ -22,7 +22,7 @@ namespace Ejercicio1guia3.Models
 
         }
 
-        public  AgregarProducto(Producto)
+        public void AgregarProducto(Producto p)
         {
 
         }
